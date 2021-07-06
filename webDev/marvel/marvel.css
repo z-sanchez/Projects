@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.vision {
+    position: relative;
+    left: 350px;
+    top: 250px;
+}
+.vision img {
+    width: 20%;
+    height: auto;
+}
+
+.vision a:hover img {
+    width: 25%;
+    height: auto;
+    filter: drop-shadow(2px 2px 0 white)
+            drop-shadow(-2px -2px 0 white);
+            
+}

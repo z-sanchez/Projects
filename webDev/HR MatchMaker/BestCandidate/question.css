@@ -1,0 +1,123 @@
+article h2 {
+    font-size: 40px;
+}
+
+.flex {
+    margin: 3% 0 6% 0;
+    width: 100%;
+    flex-flow: column;
+}
+
+
+
+
+
+.sliderFlex {
+    display: flex;
+    flex-flow: column;
+    margin-top: 6%;
+    width: 100%;
+}
+
+.slider {
+    order: 0;
+    margin-top: 3%;
+    align-self: center;
+    width: 60%;
+}
+
+.value {
+    order: 1;
+    align-self: center;
+    margin-top: 5%;
+    width: 10%;
+    color: white;
+    border-radius: 5px;
+    background-color: #259CD5;
+}
+
+
+.otherSliders {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+
+
+
+
+.buttonFlex {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 1%;
+    justify-content: flex-end;
+}
+
+#prev, #next, #submit {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 360px;
+    border-style: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 8%;
+    font-size: 40px;
+    color: white;
+    background-color: #259CD5;
+}
+
+#prev, #submit {
+    display: none;
+}
+
+
+
+
+
+
+.ynFlex {
+    padding: 0 8vw 0 8vw;
+
+}
+
+
+
+#yes, #no {
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    background-color: #259CD5;
+    border-style: none;
+    font-size: 40px;
+    font-family: farro;
+    font-weight: lighter;
+    margin: 0 8vw 0 8vw;
+}
+
+
+
+
+
+.choice, .canChoice {
+    display: none;
+    align-self: center;
+}
+
+
+.answer {
+    display: flex;
+}
+
+.values {
+    list-style: none;
+    font-family: farro;
+}
+
+.values li {
+    float: left;
+    margin: 0 3vw 0 3vw;
+}
+
+

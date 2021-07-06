@@ -1,0 +1,38 @@
+.job {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: farro;
+    font-size: 15px;
+    color: #595959;
+}
+
+.icon {
+    margin-top: 2%;
+    width: 12.5vw;
+    filter: grayscale(100%);
+}
+
+.job:hover {
+    transform: translateY(-40px);
+    color: #259CD5;
+}
+
+.icon:hover {
+    filter: none;
+}
+
+#pd {
+    width: 12.5vw;
+    margin-top: 15px;
+}
+
+
+a:hover {
+    color: #259CD5;
+}
+
+
+
+

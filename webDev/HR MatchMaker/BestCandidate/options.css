@@ -1,0 +1,23 @@
+.option h1 {
+    width: 400px;
+    margin: 5vw;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: farro;
+    background-color: #878787;
+    color: white;
+}
+
+.option h1:hover {
+    background-color: #259CD5;
+}
+
+.option a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+
+

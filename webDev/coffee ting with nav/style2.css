@@ -1,0 +1,15 @@
+@media all and (max-width: 1200px) {
+    
+
+    .navBar ul{
+        flex-flow: column;
+    } 
+
+    .navBar li {
+        align-self: center;
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+
+
+}

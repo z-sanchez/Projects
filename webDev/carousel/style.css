@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'new';
+    src: url('NewTegomin-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color:#99A3A5;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    width: 100%;
+    margin: 15px;
+    color: white;
+    font-size: 33px;
+    font-family: new;
+}
+
+.article {
+    width: 35%;
+    position: relative;
+    left: 33%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: #414B55;
+    border-radius: 5px 20px 5px;
+}
+
+.article h2 {
+    margin-bottom: 100px;
+    max-height: 68px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article p {
+    max-height: 20%;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 40px 80px 40px
+}
+
+.buttonBar {
+    max-height: 20%;
+    margin-top: 60px;
+}
+
+.button {
+    border: none;
+    background-color: #99A3A5;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+#image {
+    width: 40%;
+    height: 200px;
+    margin-bottom: 65px;
+    border: 10px solid #99A3A5;
+    border-radius: 50%; 
+}

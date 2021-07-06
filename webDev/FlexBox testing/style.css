@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height:auto;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#pug {
+    order: 2;
+}
+
+#pek {
+    order: 0;
+}
+
+#gsd {
+    order: 1;
+}
+
+#goofy {
+    order: 3;
+}

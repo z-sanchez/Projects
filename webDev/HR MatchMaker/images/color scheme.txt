@@ -1,0 +1,14 @@
+
+
+blue: #164081
+lighter blue: #259CD5
+darker blue: #003A9B
+magenta: #AA2B6B
+
+Darkened White: #FAF9F8
+white: #FFFFFF
+
+
+Black Header: #2D2D2D
+faded black: #595959
+

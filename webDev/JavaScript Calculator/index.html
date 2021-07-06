@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Calculator</h1>
+        </div>
+        <div class="entry">
+            <div class="operation">
+                <label for="operation">Choose an Operation</label>
+                <select id="operation" type="text" name="operation">
+                    <option></option>
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                    <option value="division">Division</option>
+                    <option value="multiplication">Multiplication</option>
+                </select>
+            </div>
+            <p>Enter Numbers</p>
+            <input type="text" id="numOne">
+            <p id="symbol"></p>
+            <input type="text" id="numTwo">
+        </div>
+        <div id="output" class="output">
+            <h2>Output</h2>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

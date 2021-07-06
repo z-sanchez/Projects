@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('Arvo-Regular.ttf') format('truetype');
+}
+
+html {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 600px;
+    position: relative;
+    top: 5px;
+    left:20px;
+    font-family: Impact, sans-serif;
+    text-shadow: rgb(139, 139, 139) -1px 0 3px, 
+                 rgb(139, 139, 139) -2px 0 3px, 
+                 rgb(139, 139, 139) -3px 1px 3px, 
+                 rgb(139, 139, 139) -4px 1px 3px, 
+                 rgb(139, 139, 139) -5px 1px 3px, 
+                 rgb(139, 139, 139) -6px 2px 3px, 
+                 rgb(139, 139, 139) -8px 2px 3px;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    transform: skewX(-4deg);
+    color: #000;
+    text-decoration: none;
+  }
+
+.bar {
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    margin-top: 25px;
+    height: 40px;
+    background: linear-gradient(to bottom, #19325a 0, #0e1c35 100%);
+}
+
+.bar ul {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    top: 10px;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+}
+
+.bar li {
+    display: inline;
+    position: relative;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Arvo';
+    font-style: normal;
+}
+
+.bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bar li:hover {
+    background: #0e1d33;
+}
+
+article {
+    margin-right: 700px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-right: 1px solid black;
+}
+
+article h1 {
+    margin-bottom: 0px;
+    padding-right: 200px;
+    margin-top: 30px;
+    font-family: 'arial';
+    font-weight: bold;
+    font-size: 70px;
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article h2 {
+    margin-top: 0px;
+    font-family: 'arial';
+    color: gray;
+}
+
+article img {
+    width: 70%;
+    height: auto;
+    position: relative;
+    left: 75px;
+}
+
+.para {
+    margin-top: 30px;
+    margin-right: 250px;
+    margin-left: 80px;
+}
+
+article p {
+    font-family: 'arial';
+    font-size: 20px;;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.bottomBox {
+    margin-top: 50px;
+    margin-right: 575px;
+}
+
+.bottomBox hr {
+    border-color: black;
+    margin-right: 100px;
+}
+
+.bottomBox ul {
+    list-style-type: none;
+}
+
+.bottomBox li {
+    float: left;
+    margin-bottom: 200px;
+    width: 32%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bottomBox  h3, .bottomBox p, .bottomBox img {
+    position: relative;
+}
+
+.bottomBox h3 {
+    font-family: 'Arvo';
+    margin-bottom: 0px;
+}
+
+.bottomBox p {
+    font-family: 'arial';
+    font-weight: bold;
+    color: gray;
+    margin-top: 0px;
+}
+
+.bottomBox img {
+    width: 299px;
+    height: auto;
+}
+
+.bottomBox a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottomBox a:hover {
+    text-decoration: underline;
+}
+
+.center li {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+aside {
+    float: right;
+    position: relative;
+    bottom: 1390px;
+    left: 300px;
+    width: 30%;
+    border: 2px solid black;
+    z-index: -1;
+}
+
+aside h3 {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+aside ul {
+    position: relative;
+}
+
+aside li {
+    margin: 10px 100px 3px 5px;
+}
+
+footer {
+    margin-top: 600px;
+}

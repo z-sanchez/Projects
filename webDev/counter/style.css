@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Lobster;
+    src: url(Lobster-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #a1dffb;
+}
+
+.banner {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    background-color: #f98365;
+    color: white;
+}
+
+.banner h1 {
+    width: 100%;
+    font-size: 85px;
+    font-family: Lobster;
+}
+
+.container {
+    margin: 100px 0 0 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    margin: 80px;
+    font-size: 40px;
+    color: white;
+}
+
+.value {
+    margin: 80px;
+    font-size: 35px;
+    color: white;
+}
+
+.buttons {
+    margin: 80px;
+}
+
+.buttons button {
+    border: none;
+    padding: 30px;
+    font-family: Lobster;
+    color: white;
+    font-size: 25px;
+}
+
+#decrease {
+    background-color: #c33124;
+}
+
+#reset {
+    background-color: #248ec3;
+}
+
+#increase {
+    background-color: #59c324;
+}
+
+
+

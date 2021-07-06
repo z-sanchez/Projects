@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'coffee';
+    src: url('Aladin-Regular.ttf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #101010;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    margin: 25px 0 10px 20px;
+    font-family: coffee;
+    font-size: 40px;
+    color: white;
+}
+
+#cup {
+    width: 20%;
+    display: block;
+    margin: 60px 0 60px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.navBar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    background-color: #453125;
+}
+
+
+
+.navBar li {
+    list-style: none;
+    padding: 10px 60px 10px 60px;
+    font-family: coffee;
+    font-size: 30px;
+}
+
+.navBar li:hover {
+    background-color: #3b2a20;
+}
+
+
+#butt {
+    display: none;
+}
+
+
+
+
+
+
+.container {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.one {
+    max-width: 250px;
+    margin: 20px;
+    color: white;
+    order: 0;
+    flex: auto;
+}
+
+#black {
+    width: 100%;
+    height: 200px;
+}
+
+.two {
+    max-width: 250px;
+    margin: 20px;
+    color: white;
+    order: 1;
+    flex: auto;
+}
+
+#latte {
+    width: 100%;
+    height: 200px;
+}
+
+.three {
+    max-width: 250px;
+    margin: 20px;
+    color: white;
+    order: 2;
+    flex: auto;
+}
+
+#capp {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+@media all and (max-width: 1200px) {
+    
+    #cup {
+        width: 30%;
+    }
+
+    #butt {
+        display: inline;
+        border: none;
+        background-color:#453125;
+        padding: 10px 60px 7px 60px;
+        position: relative;
+        left: 45%;
+    }
+
+
+    .navBar ul{
+        flex-flow: column;
+    } 
+
+    .navBar li {
+        align-self: center;
+        padding-left: 50%;
+        padding-right: 50%;
+        display: none;
+    }
+
+}

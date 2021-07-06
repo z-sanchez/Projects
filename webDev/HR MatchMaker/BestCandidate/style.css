@@ -1,0 +1,125 @@
+@font-face {
+    font-family: mistrain;
+    src: url(/fonts/Mistrain-4BBG9.ttf);
+}
+
+@font-face {
+    font-family: farro;
+    src: url(/fonts/Farro-Light.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    background-color: #FAF9F8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #595959;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+header h1 {
+    font-size: 4.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-family: mistrain;
+    color: #003A9B;
+}
+
+
+
+.socialMedia {
+    margin-left: 55vw;
+    margin-top: 4.5%;
+}
+
+.socialMedia li {
+    float: left;
+    list-style: none;
+    margin-left: .8vw;
+}
+
+.socialMedia img {
+    width: 2.3vw;
+}
+
+.socialMedia li img:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+article {
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+article h2 {
+    width: 100%;
+    font-size: 40px;
+    font-family: farro;
+    font-weight: lighter;
+    color: #2D2D2D;
+}
+
+
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footerInfo {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.footerInfo li {
+    float: left;
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="title">
+            <h1>Better Calculator!</h1>
+        </div>
+    
+        <div class="buttons">
+            <table>
+                <tr id="screen">
+                    <td colspan="4" id="screenData"><p id="value">0</p></td>
+                </tr>
+                <tr>
+                    <td colspan="2" ><button type="button" class="clear" id="ac" value="C">C</button></td>
+                    <td><button type="button" class="operator" value="%">%</button></td>
+                    <td><button type="button" class="operator" value="/">/</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button type="button" value="7">7</button></td>
+                    <td><button type="button" value="8">8</button></td>
+                    <td><button type="button" value="9">9</button></td>
+                    <td><button type="button" class="operator" value="x">X</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button type="button" value="4">4</button></td>
+                    <td><button type="button" value="5">5</button></td>
+                    <td><button type="button" value="6">6</button></td>
+                    <td><button type="button" class="operator" value="-">-</button></td>
+                </tr>
+    
+                <tr>
+                    <td><button type="button" value="1">1</button></td>
+                    <td><button type="button" value="2">2</button></td>
+                    <td><button type="button" value="3">3</button></td>
+                    <td><button type="button" class="operator" value="+">+</button></td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2"><button type="button" value="0">0</button></td>
+                    <td><button type="button" class="decimal" value=".">.</button></td>
+                    <td><button type="button" class="equals" value="=">=</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

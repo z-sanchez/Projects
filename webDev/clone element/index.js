@@ -1,4 +1,4 @@
-const item = document.querySelector('div');
+const item = document.querySelector('.contain');
 const bob = document.querySelector('button');
 var clone = item.cloneNode(true);
 const body = document.body;

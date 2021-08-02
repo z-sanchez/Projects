@@ -129,7 +129,9 @@ myPromise.then((message) => {
 }).then((message) => {
     console.log(message);
     penis(pass);
+    return myPromise
 }).then((message) => {
+    console.log(message);
     babies(pass);
 }).catch((message) => {
     console.log(message);
